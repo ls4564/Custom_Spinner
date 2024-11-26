@@ -1,6 +1,7 @@
 package com.example.custom_spinner;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void weddings()
     {
-
+        //customAdapter adp = new customAdapter(this,arr_data);
     }
 }

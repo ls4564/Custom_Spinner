@@ -1,13 +1,13 @@
 package com.example.custom_spinner;
 
-public class Countrys
+public class Countries
 {
     private int[] image;
     private String countryName;
     private String countryCity;
     private int Population_size;
 
-    public Countrys(int[] image, String countryName, String countryCity, int population_size)
+    public Countries(int[] image, String countryName, String countryCity, int population_size)
     {
         this.image = image;
         this.countryName = countryName;
