@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     Countries[] countries_arr;
-    Countries cac;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,9 +36,11 @@ public class MainActivity extends AppCompatActivity {
     {
         for(int i = 0 ; i < countries_arr.length ; i++)
         {
+            countries_arr[i] = new Countries();
+
             countries_arr[i].setCountryName(getResources().getStringArray(R.array.countryName)[i]);
             countries_arr[i].setCountryCity(getResources().getStringArray(R.array.countryCity)[i]);
-            countries_arr[i].setCountryName(getResources().getStringArray(R.array.countryCityPopulation)[i]);
+            countries_arr[i].setPopulation_size(getResources().getStringArray(R.array.countryCityPopulation)[i]);
         }
     }
 }

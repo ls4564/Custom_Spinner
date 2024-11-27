@@ -2,24 +2,31 @@ package com.example.custom_spinner;
 
 public class Countries
 {
-    private int[] image;
+    private int image;
     private String countryName;
     private String countryCity;
-    private int Population_size;
+    private String Population_size;
 
-    public Countries(int[] image, String countryName, String countryCity, int population_size)
+    public Countries(int image, String countryName, String countryCity, String population_size)
     {
         this.image = image;
         this.countryName = countryName;
         this.countryCity = countryCity;
         this.Population_size = population_size;
     }
+    public Countries()
+    {
+        this.image = 0;
+        this.countryName = "";
+        this.countryCity = "";
+        this.Population_size = "";
+    }
 
-    public int[] getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(int[] image) {
+    public void setImage(int image) {
         this.image = image;
     }
 
@@ -39,11 +46,11 @@ public class Countries
         this.countryCity = countryCity;
     }
 
-    public int getPopulation_size() {
+    public String getPopulation_size() {
         return Population_size;
     }
 
-    public void setPopulation_size(int population_size) {
+    public void setPopulation_size(String population_size) {
         Population_size = population_size;
     }
 
