@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Custom_Spinner</string>
+
+    <string-array name="countryName">
+        <item>United-States</item>
+        <item>Japan</item>
+        <item>Brazil</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Israel</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string-array name="countryCity">
+        <item>Washington-DC</item>
+        <item>Tokyo</item>
+        <item>Brasilia</item>
+        <item>Paris</item>
+        <item>Rome</item>
+        <item>Jerusalem</item>
+        <item>Ottawa</item>
+    </string-array>
+
+    <string-array name="countryCityPopulation">
+        <item>Washington-DC, Population: 700,000</item>
+        <item>Tokyo, Population: 14,000,000</item>
+        <item>Brasilia, Population: 3,100,000</item>
+        <item>Paris, Population: 2,100,000</item>
+        <item>Rome, Population: 2,900,000</item>
+        <item>Jerusalem, Population: 950,000</item>
+        <item>Ottawa, Population: 1,000,000</item>
+    </string-array>
+
 </resources>
