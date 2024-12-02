@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
     {
-        tV1.setText(countries_arr[position].getCountryName() + "\n" + countries_arr[position].getCountryCity() + "\n" + countries_arr[position].getPopulation_size());
+        tV1.setText("Country Name: " + countries_arr[position].getCountryName() + "\nCapital City: " + countries_arr[position].getCountryCity() + "\n" + countries_arr[position].getPopulation_size());
     }
 
     @Override
