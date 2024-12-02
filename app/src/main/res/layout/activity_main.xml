@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#25EEFA"
+    android:background="#DE673AB7"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -38,6 +38,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView" />
+            android:text="t"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>

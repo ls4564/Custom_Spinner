@@ -22,7 +22,8 @@ public class Countries
         this.Population_size = "";
     }
 
-    public int getImage() {
+    public int getImage()
+    {
         return image;
     }
 

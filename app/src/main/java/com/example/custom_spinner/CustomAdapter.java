@@ -44,7 +44,7 @@ public class CustomAdapter extends BaseAdapter
     @Override
     public View getView(int position, View convertView, ViewGroup parent)
     {
-        convertView = inflater.inflate(R.id.sp,parent,false);
+        convertView = inflater.inflate(R.layout.custom_spinner_layout,parent,false);
         ImageView custom_iV_country = (ImageView) convertView.findViewById(R.id.custom_iV_country);
         TextView custom_tV_countryName = (TextView) convertView.findViewById(R.id.custom_tV_countryName);
         TextView custom_tV_countryCity = (TextView) convertView.findViewById(R.id.custom_tV_countryCity);
